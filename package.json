@@ -1,0 +1,37 @@
+{
+  "name": "workspace-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@colyseus/command": "^0.3.1",
+    "@colyseus/monitor": "^0.15.8",
+    "@types/bcrypt": "^5.0.2",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "bcrypt": "^5.1.1",
+    "colyseus": "^0.15.57",
+    "colyseus.js": "^0.15.26",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "phaser": "^3.87.0",
+    "regenerator-runtime": "^0.14.1",
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.18.1",
+    "@typescript-eslint/parser": "^8.18.1",
+    "copyfiles": "^2.4.1",
+    "eslint": "^9.17.0",
+    "minimist": "^1.2.8",
+    "rimraf": "^6.0.1",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0"
+  }
+}
